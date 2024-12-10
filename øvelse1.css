@@ -1,0 +1,30 @@
+.side {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    text-align: center;
+    color: bisque;
+    background-color: cadetblue;
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    border: 1px solid navy;
+  }
+
+  li {
+    border: 5px solid navy;
+    padding: 40px;
+    font-size: large;
+  }
+
+  @media only screen and (min-width: 750px) {
+      .side {
+        display: flex;
+        flex-direction: row;
+        justify-content: space-around;
+      }
+
+      li {
+        border: none;
+      }
+  }
